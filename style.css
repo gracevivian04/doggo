@@ -1,0 +1,21 @@
+.dog-img {
+  max-height: 600px;
+  display:none;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.spinner {
+  font-size: 60px;
+  text-align: center;
+  animation: 2s spin linear infinite;
+  display: none;
+}
+
+.show {
+  display: block;
+}
